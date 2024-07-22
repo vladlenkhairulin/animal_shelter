@@ -1,0 +1,96 @@
+cat > домашние_животные.txt
+
+  252  cat > вьючные_животные.txt
+
+  253  cat домашние_животные.txt > вьючные_животные.txt
+
+  254  ll
+
+  255  cat домашние_животные.txt вьючные_животные.txt > все_животные.txt
+
+  256  ll
+
+  257  cat все_животные.txt
+
+  258  mv все_животные.txt друзья_человека.txt
+
+  259  ll
+
+  260  mkdir animals
+
+  261  mv друзья_животные.txt animals
+
+  262  mv друзья_человека.txt animals
+
+  263  wget https://dev.mysql.com/get/mysql-apt-config_0.8.32-1_all.deb
+
+  264  sudo dpkg -i mysql-apt-config_0.8.32-1_all.deb
+
+  265  sudo apt update
+
+  266  sudo apt install mysql-server
+
+  267  wget http://archive.ubuntu.com/ubuntu/pool/universe/h/htop/htop_3.2.2-1_amd64.deb
+
+  268  sudo dpkg -i htop_3.2.2-1_amd64.deb
+
+  269  wget http://archive.ubuntu.com/ubuntu/pool/universe/c/cowsay/cowsay_3.03+dfsg2-8_all.deb
+
+  270  sudo dpkg -i cowsay_3.03+dfsg2-8_all.deb
+
+  271  cowsay "Hello, World!"
+
+  272  sudo dpkg -r cowsay
+
+  273  history
+
+  274  mysql -u root -p
+
+  275  mysqldump -u root -p `Друзья человека` > бд_до_объединения.sql
+
+  276  mysqldump -u root -p "Друзья человека" > бд_до_объединения.sql
+
+  277  mysql -u root -p
+
+  278  mysqldump -u root -p "Друзья человека" > бд_после_объединения.sql
+
+  279  ll
+
+  280  ip a
+
+  281  ip addr show
+
+  282  hostname -I
+
+  283  cd .
+
+  284  cd ~
+
+  285  hostname -I
+
+  286  cd final_test
+
+  287  pwd
+
+  288  scp /home/puffin2/final_test/бд_до_объединения.sql puffin@10.0.2.15:F:\gbru\SpringEP\Linux_summary
+
+  289  sudo mkdir /mnt/Common_Access
+
+  290  sudo mount -t vboxsf Common_Access /mnt/Common_Access
+
+  291  cd final/test
+
+  292  cd final.test
+
+  293  cd final_test
+
+  294  pwd
+
+  295  cp /home/puffin2/final_test/бд_до_объединения.sql /mnt/Common_Access/
+
+  296  cp /home/puffin2/final_test/бд_после_объединения.sql /mnt/Common_Access/
+
+  297  ршыещкн
+
+  298  history
+
